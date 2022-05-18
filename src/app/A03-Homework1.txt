@@ -1,2 +1,0 @@
-Do Day 2 of the Learn Angular 8 Step By Step in 10 Days
-https://www.c-sharpcorner.com/article/learn-angular-8-step-by-step-in-10-days-component-day-2/
