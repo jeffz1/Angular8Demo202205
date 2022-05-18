@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: '<h1>A component is the main building block in both Angular and React</h1>',
 })
 export class AppComponent {
-  title = 'Angular @ PC Professor';
 }
