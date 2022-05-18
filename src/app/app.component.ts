@@ -6,17 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./custom.css']
 })
 export class AppComponent {
-  data:number = 100;
 
-  constructor() {
-    console.log(`new (in constructor) - data is ${this.data}`);
-  }
-  
-  ngOnInit() {
-    console.log(`ngOnInit - data is ${this.data}`);
-  }
-  
-  ngOnChanges() {
-    console.log(`ngOnChanges - data is ${this.data}`);
-  }
 }
