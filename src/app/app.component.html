@@ -1,10 +1,6 @@
 <div>  
-  <div>  
-      <span>Enter Your Name </span>  
-      <input [(ngModel)]="val" type="text" title="This is val" />  
-  </div>  
-  <div>  
-      <span>Your Name : </span>  
-      <span>{{val}}</span>  
-  </div>  
+  <message-info 
+    [message]="'Demonstration of an Input Property of a Component'" 
+    [alert-pop]="val">
+  </message-info>  
 </div> 

@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child.component';
+import { MessageComponent } from './message.component';
 
 @NgModule({
   declarations: [
-    AppComponent, ChildComponent
+    AppComponent, ChildComponent, MessageComponent
   ],
   imports: [
     BrowserModule, FormsModule

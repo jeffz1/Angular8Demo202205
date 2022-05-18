@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./custom.css']
 })
 export class AppComponent {
-  public val: string = "";
+  public val: string = "This is an alert popup message";
 }
