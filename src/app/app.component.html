@@ -1,3 +1,15 @@
-<h1>Demonstation of a nested component in Angular</h1>
-<h2>This is the <em>Parent Component</em></h2>
-<child></child>
+<div>  
+  <span>Current Number is {{value1}}</span>      
+  <br /><br />    
+  <span>Current Number (formatted) is {{value1 | currency}}</span>  
+  <br /><br />  
+  <span>Current Date is {{dt1}}</span>  
+  <br /><br />  
+  <span>Current Date (formatted) is {{dt1 | date}}</span>  
+  <br /><br />  
+  <span>Status is {{status}}</span>  
+  <br /><br />  
+  <span>{{status ? "This is a true status" :"This is a false status"}}</span>  
+  <br /><br />  
+  <span>{{returnString()}}</span>  
+</div>  
