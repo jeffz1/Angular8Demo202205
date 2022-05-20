@@ -6,18 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./custom.css']
 })
 export class AppComponent {
-  showInfo: boolean = false;  
-  caption: string = 'Show Text';  
+  productList: Array<string> = ['IPhone','Galaxy 9.0','Blackberry 10Z','Galaxy S22 Ultra'];  
   
-  constructor() { }  
-  
-  public changeData(): void {  
-      this.showInfo = !this.showInfo;  
-      if (this.showInfo) {  
-          this.caption = 'Hide Text';  
-      }  
-      else {  
-          this.caption = 'Show Text';  
-      }  
-  }
+  constructor() { } 
 }

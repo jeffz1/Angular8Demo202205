@@ -1,8 +1,8 @@
-<div>
-  <input type="button" value="{{caption}}" (click)="changeData()" />
-  showInfo: {{ showInfo }}
-  <br />
-  <h2 *ngIf="showInfo">
-    <span>Demonstration of Structural Directives - *ngIf</span>
-  </h2>
-</div>
+<div>  
+  <h2>Demonstrate ngFor</h2>  
+  <ul>  
+      <li *ngFor="let item of productList">  
+          {{item}}  
+      </li>  
+  </ul>  
+</div> 
