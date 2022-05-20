@@ -5,10 +5,11 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { ChildComponent } from './child.component';
 import { MessageComponent } from './message.component';
+import { ColorChangeDirective } from './app.directive';
 
 @NgModule({
   declarations: [
-    AppComponent, ChildComponent, MessageComponent
+    AppComponent, ChildComponent, MessageComponent, ColorChangeDirective
   ],
   imports: [
     BrowserModule, FormsModule
