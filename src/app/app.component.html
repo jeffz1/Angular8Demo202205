@@ -1,14 +1,14 @@
 <div>  
-  <h3>This is a Attribute Directives</h3>  
-  <span [class.red]="true">Attribute Change</span><br />  
-  <span [ngClass]="{'blue':true}">Attribute Change by Using NgClass</span><br />  
-  <span [ngStyle]="{'font-size':'14px','color':'green'}">Attribute Change by Using NgStyle</span>  
+  <h3>Attribute Directive Demo</h3>  
+  <span [class.red]="true">Fixed (or static, non changing attributes)</span><br />  
+  <span [ngClass]="{'blue':true}">Set attribute by using ngClass</span><br />  
+  <span [ngStyle]="{'font-size':'14px','color':'green'}">Set attribute by nsing NgStyle</span>  
   <br /><br />  
-  <span [class.cyan]="showColor">Attribute Change</span><br />  
-  <span [ngClass]="{'green':showColor}">Attribute Change by Using NgClass</span><br />  
-  <input type="button" value="Change Color" (click)="changeColor()" />  
+  <span [class.cyan]="showColor">Attribute Change based on the state of the showColor variable</span><br />  
+  <input type="button" value="Change Color" (click)="changeColor()" /> 
+  showColor: {{showColor}} 
   <br /><br />  
-  <span [class.cyan]="showColor">Attribute Change</span><br />  
-  <span [ngClass]="{'cyan':showColor, 'red' : !showColor}">Attribute Change by Using NgClass</span><br />  
+  <span [ngClass]="{'green':showColor}">Set green class (else it's blank/black) by using ngClass</span><br />  
+  <span [ngClass]="{'cyan':showColor, 'red' : !showColor}">Toggle beteen red and cyan by using NgClass</span><br />  
   <br />  
 </div> 
