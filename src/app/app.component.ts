@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./custom.css']
 })
 export class AppComponent {
-  public val: string = "This is an alert popup message";
+    showColor: boolean = false;  
+
+    constructor() { }  
+
+    public changeColor(): void {  
+      this.showColor = !this.showColor;  
+    }
 }

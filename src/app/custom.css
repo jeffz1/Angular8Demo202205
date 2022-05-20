@@ -19,3 +19,8 @@ p {
   color: brown;
   font-family: 'Lucida Sans', 'Lucinda Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
+
+.red {color:red;}  
+.blue {color:blue}  
+.cyan {color : cyan}  
+.green {color : green}  
